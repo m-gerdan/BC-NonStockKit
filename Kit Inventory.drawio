@@ -1,0 +1,314 @@
+<mxfile host="65bd71144e">
+    <diagram id="5Ijv3sA4TbYsX1agRY9c" name="BrowCode Inventory issues">
+        <mxGraphModel dx="1190" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="Ux339X02qSVEZt_SFbRK-14" value="" style="edgeStyle=none;html=1;" parent="1" source="Ux339X02qSVEZt_SFbRK-12" target="Ux339X02qSVEZt_SFbRK-13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ux339X02qSVEZt_SFbRK-12" value="Establish non kit inventory / available to sell link between shopify and MYOB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="200" width="140" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ux339X02qSVEZt_SFbRK-16" value="" style="edgeStyle=none;html=1;" parent="1" source="Ux339X02qSVEZt_SFbRK-13" target="Ux339X02qSVEZt_SFbRK-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ux339X02qSVEZt_SFbRK-13" value="Create the correct item records in MYOB.&lt;br&gt;Tedious and time consuming but no development is required here" style="whiteSpace=wrap;html=1;fillColor=#000000;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="195" width="160" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ux339X02qSVEZt_SFbRK-15" value="Perform stock take" style="whiteSpace=wrap;html=1;fillColor=#000000;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="200" width="140" height="100" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="LY1r3zSqgDOuW9g7N6AZ" name="Inventory sync Flow">
+        <mxGraphModel dx="1035" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-1" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="80" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-8" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="GcZKbSQ_YcJPVwbaulUB-12" target="GcZKbSQ_YcJPVwbaulUB-7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="195" y="250" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-17" style="edgeStyle=none;html=1;entryX=0.193;entryY=1.063;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GcZKbSQ_YcJPVwbaulUB-5" target="GcZKbSQ_YcJPVwbaulUB-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-5" value="Inventory for item drop by amount on the order" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#006600;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-20" style="edgeStyle=none;html=1;" parent="1" source="GcZKbSQ_YcJPVwbaulUB-7" target="GcZKbSQ_YcJPVwbaulUB-23" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="870" y="445" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-7" value="Order is sent via weka to MYOB" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#006666;" parent="1" vertex="1">
+                    <mxGeometry x="425" y="400" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-10" value="" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GcZKbSQ_YcJPVwbaulUB-1" target="GcZKbSQ_YcJPVwbaulUB-12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="130" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-11" style="edgeStyle=none;html=1;" parent="1" source="GcZKbSQ_YcJPVwbaulUB-9" target="GcZKbSQ_YcJPVwbaulUB-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-9" value="Shopify display item and inventory information to potential customer" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#006600;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="-30" width="110" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-16" style="edgeStyle=none;html=1;" parent="1" source="GcZKbSQ_YcJPVwbaulUB-12" target="GcZKbSQ_YcJPVwbaulUB-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-12" value="Places Order for Item in shopify" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#006600;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="200" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-18" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GcZKbSQ_YcJPVwbaulUB-15" target="GcZKbSQ_YcJPVwbaulUB-9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-15" value="Shopify item record:&lt;br&gt;InvLevel = n" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#006600;dx=10;dy=10;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="10" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-27" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GcZKbSQ_YcJPVwbaulUB-19" target="GcZKbSQ_YcJPVwbaulUB-26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-28" value="Non stock Kit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GcZKbSQ_YcJPVwbaulUB-27" vertex="1" connectable="0">
+                    <mxGeometry x="0.3915" y="-2" relative="1" as="geometry">
+                        <mxPoint x="-30" y="-9" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="bdUa8sQTV6vMkzc8LIus-3" style="edgeStyle=none;html=1;fontSize=13;fontColor=#000000;endArrow=oval;endFill=1;" edge="1" parent="1" source="GcZKbSQ_YcJPVwbaulUB-19">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="890" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="bdUa8sQTV6vMkzc8LIus-5" value="stocked" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="bdUa8sQTV6vMkzc8LIus-3">
+                    <mxGeometry x="-0.2303" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-19" value="Is Item &lt;br&gt;Stocked Inventory&lt;br&gt;or&amp;nbsp;&lt;br&gt;&amp;nbsp;non stock kit?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
+                    <mxGeometry x="970" y="250" width="150" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-25" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GcZKbSQ_YcJPVwbaulUB-21" target="GcZKbSQ_YcJPVwbaulUB-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-21" value="Inventory is &lt;br&gt;sent to shopify via weka&lt;br&gt;(No change to current behaviour)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#006666;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="160" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="-n2A34vFrgaTMqY026oD-2" value="" style="edgeStyle=none;html=1;strokeColor=#CCCCCC;fontSize=13;fontColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1" source="GcZKbSQ_YcJPVwbaulUB-23" target="-n2A34vFrgaTMqY026oD-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-23" value="Order lands in MYOB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#660066;" parent="1" vertex="1">
+                    <mxGeometry x="615" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-33" value="" style="edgeStyle=none;html=1;" parent="1" source="GcZKbSQ_YcJPVwbaulUB-26" target="GcZKbSQ_YcJPVwbaulUB-32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-26" value="Get current Kit revision/s" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#660066;" parent="1" vertex="1">
+                    <mxGeometry x="1190" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="qjT2JvjEHwXLYAEJNMRI-6" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=80;entryDy=65;entryPerimeter=0;fillColor=#FF0000;" parent="1" source="GcZKbSQ_YcJPVwbaulUB-29" target="qjT2JvjEHwXLYAEJNMRI-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-29" value="i need to review the MYOB Documentation, to nail out the specifics.&lt;br&gt;&lt;br&gt;However even in a realistic worst case This overall plan will work.&lt;br&gt;Plan will be designed to rely as heavy on existing and native functionality as possible" style="shape=note;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFFCC;size=16;strokeColor=#4D4D4D;fontColor=#000000;whiteSpace=wrap;labelBorderColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1540" y="400" width="170" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-30" value="Field will need to be added to select an active revision.&lt;br&gt;Unless you can set a default" style="shape=note;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFFCC;size=15;strokeColor=#4D4D4D;fontColor=#000000;whiteSpace=wrap;labelBorderColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1040" y="445" width="105" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-35" style="edgeStyle=none;html=1;" parent="1" source="GcZKbSQ_YcJPVwbaulUB-32" target="GcZKbSQ_YcJPVwbaulUB-34" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-32" value="Get List of all components" style="whiteSpace=wrap;html=1;fillColor=#660066;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="1380" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hhbmnv4_vQJKUALnF63v-2" value="" style="edgeStyle=none;html=1;" parent="1" source="GcZKbSQ_YcJPVwbaulUB-34" target="hhbmnv4_vQJKUALnF63v-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-34" value="get Inventory for (either specific location or all locations)" style="whiteSpace=wrap;html=1;fillColor=#660066;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="1480" y="140" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-37" style="edgeStyle=none;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="GcZKbSQ_YcJPVwbaulUB-36" target="GcZKbSQ_YcJPVwbaulUB-34" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hhbmnv4_vQJKUALnF63v-4" value="" style="edgeStyle=none;html=1;" parent="1" source="hhbmnv4_vQJKUALnF63v-1" target="hhbmnv4_vQJKUALnF63v-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hhbmnv4_vQJKUALnF63v-1" value="Detrmine lowest QTY" style="whiteSpace=wrap;html=1;fillColor=#660066;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="1430" y="-30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hhbmnv4_vQJKUALnF63v-5" style="edgeStyle=none;html=1;fillColor=#00CC00;" parent="1" source="hhbmnv4_vQJKUALnF63v-3" target="GcZKbSQ_YcJPVwbaulUB-21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hhbmnv4_vQJKUALnF63v-6" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hhbmnv4_vQJKUALnF63v-5" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1653" y="-3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hhbmnv4_vQJKUALnF63v-8" value="NO" style="edgeStyle=none;html=1;fillColor=#FF0000;" parent="1" source="hhbmnv4_vQJKUALnF63v-3" target="hhbmnv4_vQJKUALnF63v-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hhbmnv4_vQJKUALnF63v-3" value="Can WEKA platform &lt;br&gt;send level for &lt;br&gt;non stock kit?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FF6666;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="1120" y="-140" width="180" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="hhbmnv4_vQJKUALnF63v-9" style="edgeStyle=none;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="hhbmnv4_vQJKUALnF63v-7" target="GcZKbSQ_YcJPVwbaulUB-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hhbmnv4_vQJKUALnF63v-7" value="Send QTY via webservices" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#660066;" parent="1" vertex="1">
+                    <mxGeometry x="900" y="-160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="qjT2JvjEHwXLYAEJNMRI-3" style="edgeStyle=none;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fillColor=#FF0000;" parent="1" source="hhbmnv4_vQJKUALnF63v-10" target="GcZKbSQ_YcJPVwbaulUB-34" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="hhbmnv4_vQJKUALnF63v-10" value="Is shopify tracking inventory levels at different locations?" style="shape=note;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFFCC;size=16;strokeColor=#4D4D4D;fontColor=#000000;whiteSpace=wrap;labelBorderColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1740" y="320" width="110" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="hhbmnv4_vQJKUALnF63v-11" value="Is shopify admin shared across all stores?&lt;br&gt;Yes but double check" style="shape=note;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFFCC;strokeColor=#4D4D4D;fontColor=#000000;whiteSpace=wrap;labelBorderColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1830" y="80" width="110" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="qjT2JvjEHwXLYAEJNMRI-2" style="edgeStyle=none;html=1;fillColor=#FF0000;startArrow=none;" parent="1" source="5S789iHpQaDpRHOYdibH-2" target="GcZKbSQ_YcJPVwbaulUB-26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="qjT2JvjEHwXLYAEJNMRI-1" value="Shopify metefaild may need to be added to specify which revision if orders will be placed in a manner that causes revisions to overlap.&lt;br&gt;" style="shape=note;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFFCC;size=14;strokeColor=#4D4D4D;fontColor=#000000;whiteSpace=wrap;labelBorderColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1190" y="435" width="140" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcZKbSQ_YcJPVwbaulUB-36" value="Are orders for certain shopify stores only fulfuilled from certain locations" style="shape=note;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFFCC;strokeColor=#4D4D4D;fontColor=#000000;whiteSpace=wrap;labelBorderColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1660" y="110" width="100" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="qjT2JvjEHwXLYAEJNMRI-5" style="edgeStyle=none;html=1;entryX=0.395;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#FF0000;" parent="1" source="qjT2JvjEHwXLYAEJNMRI-4" target="GcZKbSQ_YcJPVwbaulUB-32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="qjT2JvjEHwXLYAEJNMRI-4" value="Does MYOB have a available to sell field easily acessable from the Kit revision record?" style="shape=note;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFFCC;strokeColor=#4D4D4D;fontColor=#000000;whiteSpace=wrap;labelBorderColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1360" y="420" width="140" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="qjT2JvjEHwXLYAEJNMRI-7" value="OPTIONS:&lt;br&gt;1. Do we want to factor in a reserve buffer?" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#FFFFCC;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="-350" width="190" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="bdUa8sQTV6vMkzc8LIus-6" style="edgeStyle=none;html=1;fontSize=13;fontColor=#FFFFFF;" edge="1" parent="1" target="GcZKbSQ_YcJPVwbaulUB-21">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="890" y="260" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="bdUa8sQTV6vMkzc8LIus-7" style="edgeStyle=none;html=1;fontSize=13;fontColor=#FFFFFF;" edge="1" parent="1" target="bdUa8sQTV6vMkzc8LIus-8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="970.0000000000002" y="200" as="targetPoint"/>
+                        <mxPoint x="890" y="260" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="bdUa8sQTV6vMkzc8LIus-9" value="Yes" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#FFFFFF;strokeColor=#00FF00;" edge="1" parent="1" source="bdUa8sQTV6vMkzc8LIus-8" target="GcZKbSQ_YcJPVwbaulUB-26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="bdUa8sQTV6vMkzc8LIus-8" value="Perform lookup to determine if inventory item is part of an active non stock kit BOM" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=#4D4D4D;fontSize=13;fontColor=#FFFFFF;fillColor=#660066;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="130" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5S789iHpQaDpRHOYdibH-3" value="" style="edgeStyle=none;html=1;entryX=0.299;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#CCCCCC;fontSize=13;fontColor=#FFFFFF;endArrow=none;endFill=1;" edge="1" parent="1" source="GcZKbSQ_YcJPVwbaulUB-30" target="5S789iHpQaDpRHOYdibH-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1133.187188019967" y="445" as="sourcePoint"/>
+                        <mxPoint x="1225.88" y="319.7000000000003" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5S789iHpQaDpRHOYdibH-4" value="" style="edgeStyle=none;html=1;fillColor=#FF0000;endArrow=none;" edge="1" parent="1" source="qjT2JvjEHwXLYAEJNMRI-1" target="5S789iHpQaDpRHOYdibH-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1259.333333333334" y="430" as="sourcePoint"/>
+                        <mxPoint x="1252.0000000000005" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5S789iHpQaDpRHOYdibH-2" value="&lt;font color=&quot;#000000&quot;&gt;OR&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=#4D4D4D;fontSize=13;fontColor=#FFFFFF;fillColor=#CCCCCC;" vertex="1" parent="1">
+                    <mxGeometry x="1180" y="360" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="5S789iHpQaDpRHOYdibH-6" style="edgeStyle=none;html=1;strokeColor=#CCCCCC;fontSize=13;fontColor=#000000;endArrow=oval;endFill=1;" edge="1" parent="1" source="5S789iHpQaDpRHOYdibH-5" target="qjT2JvjEHwXLYAEJNMRI-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5S789iHpQaDpRHOYdibH-5" value="This would be my prefereance as it handles change to business practices however to avoid data discrepancies it might pay to have a product sync established at least for N/S kits" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBorderColor=none;strokeColor=#4D4D4D;fontSize=13;fontColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="1170" y="610" width="140" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="-n2A34vFrgaTMqY026oD-3" style="edgeStyle=none;html=1;entryX=0.267;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#CCCCCC;fontSize=13;fontColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1" source="-n2A34vFrgaTMqY026oD-1" target="GcZKbSQ_YcJPVwbaulUB-19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-n2A34vFrgaTMqY026oD-1" value="Creates an inventory change notification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#660066;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="-n2A34vFrgaTMqY026oD-6" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#CCCCCC;fontSize=13;fontColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1" source="-n2A34vFrgaTMqY026oD-5" target="-n2A34vFrgaTMqY026oD-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-n2A34vFrgaTMqY026oD-5" value="&lt;font color=&quot;#ffffff&quot;&gt;Assembly record is submittted by user&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#660066;rounded=1;labelBorderColor=none;strokeColor=#4D4D4D;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="540" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="-n2A34vFrgaTMqY026oD-8" style="edgeStyle=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeColor=#CCCCCC;fontSize=13;fontColor=#FFFFFF;endArrow=block;endFill=1;" edge="1" parent="1" source="-n2A34vFrgaTMqY026oD-7" target="-n2A34vFrgaTMqY026oD-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="-n2A34vFrgaTMqY026oD-7" value="&lt;font color=&quot;#000000&quot;&gt;Will an order for a non stock kit create an inventory change notification?&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBorderColor=none;strokeColor=#4D4D4D;fontSize=13;fontColor=#FFFFFF;fillColor=#FFFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="520" width="130" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="NaA_4rB86Sv-NCIedCcV" name="Example BOM tree">
+        <mxGraphModel dx="1190" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="svXft4cTfLkcb2IcRsGb-3" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="svXft4cTfLkcb2IcRsGb-1" target="svXft4cTfLkcb2IcRsGb-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="svXft4cTfLkcb2IcRsGb-20" style="edgeStyle=none;html=1;entryX=0.558;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="svXft4cTfLkcb2IcRsGb-1" target="svXft4cTfLkcb2IcRsGb-19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="svXft4cTfLkcb2IcRsGb-1" value="&lt;font color=&quot;#000000&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Final Product:&lt;/font&gt;&lt;br&gt;Type = Non Stock Kit&lt;br&gt;This is the item that the customer purchases&lt;br&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBorderColor=none;strokeColor=#23445d;fillColor=#bac8d3;" vertex="1" parent="1">
+                    <mxGeometry x="325" y="40" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="svXft4cTfLkcb2IcRsGb-5" value="" style="edgeStyle=none;html=1;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="svXft4cTfLkcb2IcRsGb-2" target="svXft4cTfLkcb2IcRsGb-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="svXft4cTfLkcb2IcRsGb-11" value="" style="edgeStyle=none;html=1;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="svXft4cTfLkcb2IcRsGb-2" target="svXft4cTfLkcb2IcRsGb-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="svXft4cTfLkcb2IcRsGb-13" value="" style="edgeStyle=none;html=1;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="svXft4cTfLkcb2IcRsGb-2" target="svXft4cTfLkcb2IcRsGb-12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="svXft4cTfLkcb2IcRsGb-15" value="" style="edgeStyle=none;html=1;fontSize=13;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="svXft4cTfLkcb2IcRsGb-2" target="svXft4cTfLkcb2IcRsGb-16">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="890" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="svXft4cTfLkcb2IcRsGb-2" value="Type = Stocked Kit:&lt;br&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Can also be sold on Shopify&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=#23445d;fontSize=16;fillColor=#bac8d3;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="220" width="150" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="svXft4cTfLkcb2IcRsGb-8" value="" style="edgeStyle=none;html=1;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="svXft4cTfLkcb2IcRsGb-4" target="svXft4cTfLkcb2IcRsGb-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="svXft4cTfLkcb2IcRsGb-10" value="" style="edgeStyle=none;html=1;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="svXft4cTfLkcb2IcRsGb-4" target="svXft4cTfLkcb2IcRsGb-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="svXft4cTfLkcb2IcRsGb-4" value="Brush x3&lt;br&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Type = Stocked Kit:&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="380" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="svXft4cTfLkcb2IcRsGb-7" value="Packaging x1&lt;br&gt;Type = inventory item" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="540" width="145" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="svXft4cTfLkcb2IcRsGb-9" value="Brush (loose item)&lt;br&gt;type = inventory item" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="525" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="svXft4cTfLkcb2IcRsGb-12" value="Henna (dunno what that is tho)&lt;br&gt;type= inventory item" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="850" y="390" width="130" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="svXft4cTfLkcb2IcRsGb-16" value="Packaging x1&lt;br&gt;Type = inventory item" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="800" y="240" width="145" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="svXft4cTfLkcb2IcRsGb-19" value="&lt;font color=&quot;#000000&quot;&gt;Sharpies x 5&lt;br&gt;type = inventory item&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=#23445d;fontSize=13;fillColor=#bac8d3;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="220" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="M_44rdJlkdQvFlV5cc7e-2" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeColor=#CCCCCC;fontSize=13;fontColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1" source="M_44rdJlkdQvFlV5cc7e-1" target="svXft4cTfLkcb2IcRsGb-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="M_44rdJlkdQvFlV5cc7e-1" value="These are assembled with backflushing record" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBorderColor=none;strokeColor=#4D4D4D;fontSize=13;fontColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="900" y="30" width="110" height="130" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
