@@ -1,29 +1,6 @@
 <mxfile host="65bd71144e">
-    <diagram id="5Ijv3sA4TbYsX1agRY9c" name="BrowCode Inventory issues">
-        <mxGraphModel dx="1209" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="Ux339X02qSVEZt_SFbRK-14" value="" style="edgeStyle=none;html=1;" parent="1" source="Ux339X02qSVEZt_SFbRK-12" target="Ux339X02qSVEZt_SFbRK-13" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="Ux339X02qSVEZt_SFbRK-12" value="Establish non kit inventory / available to sell link between shopify and MYOB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="200" width="140" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="Ux339X02qSVEZt_SFbRK-16" value="" style="edgeStyle=none;html=1;" parent="1" source="Ux339X02qSVEZt_SFbRK-13" target="Ux339X02qSVEZt_SFbRK-15" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="Ux339X02qSVEZt_SFbRK-13" value="Create the correct item records in MYOB.&lt;br&gt;Tedious and time consuming but no development is required here" style="whiteSpace=wrap;html=1;fillColor=#000000;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="240" y="195" width="160" height="110" as="geometry"/>
-                </mxCell>
-                <mxCell id="Ux339X02qSVEZt_SFbRK-15" value="Perform stock take" style="whiteSpace=wrap;html=1;fillColor=#000000;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="430" y="200" width="140" height="100" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
     <diagram id="LY1r3zSqgDOuW9g7N6AZ" name="Inventory sync Flow">
-        <mxGraphModel dx="1205" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="426" dy="1656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -226,19 +203,19 @@
                 <mxCell id="-n2A34vFrgaTMqY026oD-7" value="&lt;font color=&quot;#000000&quot;&gt;Will an order for a non stock kit create an inventory change notification?&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBorderColor=none;strokeColor=#4D4D4D;fontSize=13;fontColor=#FFFFFF;fillColor=#FFFFCC;" parent="1" vertex="1">
                     <mxGeometry x="650" y="520" width="130" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="6_Pf2CV-2c3QZ0pw36Di-1" value="Is Kit Revision specified on the Sales Order?" style="shape=note;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFFCC;size=15;strokeColor=#4D4D4D;fontColor=#000000;whiteSpace=wrap;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="6_Pf2CV-2c3QZ0pw36Di-1" value="Is Kit Revision specified on the Sales Order?" style="shape=note;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFFCC;size=15;strokeColor=#4D4D4D;fontColor=#000000;whiteSpace=wrap;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1085" y="590" width="105" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="6_Pf2CV-2c3QZ0pw36Di-4" style="edgeStyle=none;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="6_Pf2CV-2c3QZ0pw36Di-2" target="GcZKbSQ_YcJPVwbaulUB-34">
+                <mxCell id="6_Pf2CV-2c3QZ0pw36Di-4" style="edgeStyle=none;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;" parent="1" source="6_Pf2CV-2c3QZ0pw36Di-2" target="GcZKbSQ_YcJPVwbaulUB-34" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6_Pf2CV-2c3QZ0pw36Di-2" value="Are MYOB products shared across all shopify Stores?" style="shape=note;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFFCC;strokeColor=#4D4D4D;fontColor=#000000;whiteSpace=wrap;labelBorderColor=none;size=23;" vertex="1" parent="1">
+                <mxCell id="6_Pf2CV-2c3QZ0pw36Di-2" value="Are MYOB products shared across all shopify Stores?" style="shape=note;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFFCC;strokeColor=#4D4D4D;fontColor=#000000;whiteSpace=wrap;labelBorderColor=none;size=23;" parent="1" vertex="1">
                     <mxGeometry x="1710" y="60" width="150" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="6_Pf2CV-2c3QZ0pw36Di-5" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="6_Pf2CV-2c3QZ0pw36Di-3" target="GcZKbSQ_YcJPVwbaulUB-34">
+                <mxCell id="6_Pf2CV-2c3QZ0pw36Di-5" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;" parent="1" source="6_Pf2CV-2c3QZ0pw36Di-3" target="GcZKbSQ_YcJPVwbaulUB-34" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6_Pf2CV-2c3QZ0pw36Di-3" value="Does a shopify store get fulfilled from a single MYOB location?" style="shape=note;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFFCC;strokeColor=#4D4D4D;fontColor=#000000;whiteSpace=wrap;labelBorderColor=none;size=18;" vertex="1" parent="1">
+                <mxCell id="6_Pf2CV-2c3QZ0pw36Di-3" value="Does a shopify store get fulfilled from a single MYOB location?" style="shape=note;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#FFFFCC;strokeColor=#4D4D4D;fontColor=#000000;whiteSpace=wrap;labelBorderColor=none;size=18;" parent="1" vertex="1">
                     <mxGeometry x="1710" y="160" width="150" height="80" as="geometry"/>
                 </mxCell>
             </root>
