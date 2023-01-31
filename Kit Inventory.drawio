@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="LY1r3zSqgDOuW9g7N6AZ" name="Inventory sync Flow">
-        <mxGraphModel dx="426" dy="1656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="426" dy="1892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -222,7 +222,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="NaA_4rB86Sv-NCIedCcV" name="Example BOM tree">
-        <mxGraphModel dx="3331" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="3086" dy="1892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -245,22 +245,22 @@
                         <mxPoint x="890" y="280" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-7" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="svXft4cTfLkcb2IcRsGb-2" target="aGBMkoTSeiEsNiXqi9xS-6">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-7" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="svXft4cTfLkcb2IcRsGb-2" target="aGBMkoTSeiEsNiXqi9xS-6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-21" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="svXft4cTfLkcb2IcRsGb-2" target="aGBMkoTSeiEsNiXqi9xS-15">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-21" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="svXft4cTfLkcb2IcRsGb-2" target="aGBMkoTSeiEsNiXqi9xS-15" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-27" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="svXft4cTfLkcb2IcRsGb-2" target="aGBMkoTSeiEsNiXqi9xS-24">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-27" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="svXft4cTfLkcb2IcRsGb-2" target="aGBMkoTSeiEsNiXqi9xS-24" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-33" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="svXft4cTfLkcb2IcRsGb-2" target="aGBMkoTSeiEsNiXqi9xS-30">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-33" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="svXft4cTfLkcb2IcRsGb-2" target="aGBMkoTSeiEsNiXqi9xS-30" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-35" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="svXft4cTfLkcb2IcRsGb-2" target="aGBMkoTSeiEsNiXqi9xS-34">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-35" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="svXft4cTfLkcb2IcRsGb-2" target="aGBMkoTSeiEsNiXqi9xS-34" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-44" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="svXft4cTfLkcb2IcRsGb-2" target="aGBMkoTSeiEsNiXqi9xS-41">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-44" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="svXft4cTfLkcb2IcRsGb-2" target="aGBMkoTSeiEsNiXqi9xS-41" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="svXft4cTfLkcb2IcRsGb-2" value="Professional Brow Tint Kit.&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type: Stock Kit (assuming it already assembled)&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=#23445d;fontSize=16;fillColor=#7BCD89;fontColor=#000000;gradientColor=default;" parent="1" vertex="1">
@@ -269,220 +269,220 @@
                 <mxCell id="svXft4cTfLkcb2IcRsGb-16" value="Brow Code Professional Bag&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type = inventory item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="-100" y="150" width="180" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-46" value="" style="edgeStyle=none;html=1;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="svXft4cTfLkcb2IcRsGb-19" target="aGBMkoTSeiEsNiXqi9xS-47">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-46" value="" style="edgeStyle=none;html=1;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="svXft4cTfLkcb2IcRsGb-19" target="aGBMkoTSeiEsNiXqi9xS-47" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-187.8947368421052" y="40" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-49" style="edgeStyle=none;html=1;fontSize=16;" edge="1" parent="1" source="svXft4cTfLkcb2IcRsGb-19" target="aGBMkoTSeiEsNiXqi9xS-48">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-49" style="edgeStyle=none;html=1;fontSize=16;" parent="1" source="svXft4cTfLkcb2IcRsGb-19" target="aGBMkoTSeiEsNiXqi9xS-48" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="svXft4cTfLkcb2IcRsGb-19" value="&lt;font color=&quot;#000000&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Design &amp;amp; Define Hot Wax&lt;/font&gt;&lt;br&gt;type = Stocked Kit&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=#23445d;fontSize=13;fillColor=#7BCD89;gradientColor=default;" parent="1" vertex="1">
                     <mxGeometry x="-140" y="-60" width="130" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-62" style="edgeStyle=none;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="M_44rdJlkdQvFlV5cc7e-1" target="svXft4cTfLkcb2IcRsGb-2">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-62" style="edgeStyle=none;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" parent="1" source="M_44rdJlkdQvFlV5cc7e-1" target="svXft4cTfLkcb2IcRsGb-2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-63" style="edgeStyle=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="M_44rdJlkdQvFlV5cc7e-1" target="aGBMkoTSeiEsNiXqi9xS-41">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-63" style="edgeStyle=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" parent="1" source="M_44rdJlkdQvFlV5cc7e-1" target="aGBMkoTSeiEsNiXqi9xS-41" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="M_44rdJlkdQvFlV5cc7e-1" value="These are assembled with backflushing / light manufacturing record.&lt;br&gt;&lt;br&gt;WH workers will submit these once they have assembled the product" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBorderColor=none;strokeColor=#4D4D4D;fontSize=13;fontColor=#000000;fillColor=#FFFFCC;" parent="1" vertex="1">
                     <mxGeometry x="640" y="-20" width="220" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-2" value="Black Tint&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type? = inventory item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-2" value="Black Tint&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type? = inventory item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="760" y="380" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-3" value="BrownTint&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type? = inventory item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-3" value="BrownTint&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type? = inventory item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="770" y="410" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-4" value="Light Brown Tint&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type? = inventory item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-4" value="Light Brown Tint&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type? = inventory item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="790" y="440" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-5" value="Graphite Tint&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type? = inventory item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-5" value="Graphite Tint&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type? = inventory item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="800" y="470" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-9" value="" style="edgeStyle=none;html=1;fontSize=12;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-6" target="aGBMkoTSeiEsNiXqi9xS-8">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-9" value="" style="edgeStyle=none;html=1;fontSize=12;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-6" target="aGBMkoTSeiEsNiXqi9xS-8" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-10" value="" style="edgeStyle=none;html=1;fontSize=11;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-6" target="aGBMkoTSeiEsNiXqi9xS-8">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-10" value="" style="edgeStyle=none;html=1;fontSize=11;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-6" target="aGBMkoTSeiEsNiXqi9xS-8" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-14" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-6" target="aGBMkoTSeiEsNiXqi9xS-13">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-14" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-6" target="aGBMkoTSeiEsNiXqi9xS-13" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-6" value="Peroxide Creme&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type =Stocked Kit&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-6" value="Peroxide Creme&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type =Stocked Kit&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="580" y="380" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-8" value="Peroxide?&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-8" value="Peroxide?&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="650" y="480" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-13" value="Packaging&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-13" value="Packaging&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="520" y="480" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-19" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-15" target="aGBMkoTSeiEsNiXqi9xS-17">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-19" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-15" target="aGBMkoTSeiEsNiXqi9xS-17" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-20" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-15" target="aGBMkoTSeiEsNiXqi9xS-18">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-20" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-15" target="aGBMkoTSeiEsNiXqi9xS-18" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-15" value="Gold Tweezer Point Precision&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type =Stocked Kit&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-15" value="Gold Tweezer Point Precision&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type =Stocked Kit&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="370" y="330" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-17" value="Packaging?&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-17" value="Packaging?&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="410" y="410" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-18" value="&lt;font style=&quot;&quot;&gt;Tweezer&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-18" value="&lt;font style=&quot;&quot;&gt;Tweezer&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="350" y="490" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-22" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-24" target="aGBMkoTSeiEsNiXqi9xS-25">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-22" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-24" target="aGBMkoTSeiEsNiXqi9xS-25" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-23" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-24" target="aGBMkoTSeiEsNiXqi9xS-26">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-23" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-24" target="aGBMkoTSeiEsNiXqi9xS-26" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-24" value="Gold Tweezer Slant Precision&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type =Stocked Kit&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-24" value="Gold Tweezer Slant Precision&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type =Stocked Kit&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="220" y="330" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-25" value="Packaging?&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-25" value="Packaging?&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="260" y="410" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-26" value="&lt;font style=&quot;&quot;&gt;Tweezer&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-26" value="&lt;font style=&quot;&quot;&gt;Tweezer&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="200" y="490" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-28" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-30" target="aGBMkoTSeiEsNiXqi9xS-31">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-28" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-30" target="aGBMkoTSeiEsNiXqi9xS-31" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-29" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-30" target="aGBMkoTSeiEsNiXqi9xS-32">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-29" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-30" target="aGBMkoTSeiEsNiXqi9xS-32" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-30" value="Gold Straight Trimming Scissor&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type =Stocked Kit&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-30" value="Gold Straight Trimming Scissor&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type =Stocked Kit&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="70" y="330" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-31" value="Packaging?&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-31" value="Packaging?&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="110" y="410" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-32" value="&lt;font style=&quot;&quot;&gt;Scissor&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-32" value="&lt;font style=&quot;&quot;&gt;Scissor&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="50" y="490" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-34" value="Mapping Thread&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-34" value="Mapping Thread&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="-60" y="260" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-38" value="" style="edgeStyle=none;html=1;fontSize=12;" edge="1" source="aGBMkoTSeiEsNiXqi9xS-41" target="aGBMkoTSeiEsNiXqi9xS-42" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-38" value="" style="edgeStyle=none;html=1;fontSize=12;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-41" target="aGBMkoTSeiEsNiXqi9xS-42" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-39" value="" style="edgeStyle=none;html=1;fontSize=11;" edge="1" source="aGBMkoTSeiEsNiXqi9xS-41" target="aGBMkoTSeiEsNiXqi9xS-42" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-39" value="" style="edgeStyle=none;html=1;fontSize=11;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-41" target="aGBMkoTSeiEsNiXqi9xS-42" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-40" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" source="aGBMkoTSeiEsNiXqi9xS-41" target="aGBMkoTSeiEsNiXqi9xS-43" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-40" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-41" target="aGBMkoTSeiEsNiXqi9xS-43" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-41" value="Glass Mixing Dish&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type =Stocked Kit&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-41" value="Glass Mixing Dish&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Type =Stocked Kit&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="820" y="220" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-42" value="Mixing Dish&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-42" value="Mixing Dish&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="950" y="290" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-43" value="Packaging&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-43" value="Packaging&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="800" y="290" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-47" value="Packaging&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-47" value="Packaging&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="-270" y="50" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-48" value="&lt;font style=&quot;&quot;&gt;Wax&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-48" value="&lt;font style=&quot;&quot;&gt;Wax&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;type:Inventory Item&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="-130" y="50" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-51" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-50" target="aGBMkoTSeiEsNiXqi9xS-41">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-51" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-50" target="aGBMkoTSeiEsNiXqi9xS-41" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-52" style="edgeStyle=none;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-50" target="aGBMkoTSeiEsNiXqi9xS-3">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-52" style="edgeStyle=none;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-50" target="aGBMkoTSeiEsNiXqi9xS-3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1080" y="370"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-54" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-50" target="aGBMkoTSeiEsNiXqi9xS-53">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-54" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-50" target="aGBMkoTSeiEsNiXqi9xS-53" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-50" value="&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#000000&quot;&gt;Brow Tint Kit&lt;br&gt;Type = Stocked Kit&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#14466c;fontSize=16;fillColor=#7BCD89;gradientColor=default;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-50" value="&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#000000&quot;&gt;Brow Tint Kit&lt;br&gt;Type = Stocked Kit&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#14466c;fontSize=16;fillColor=#7BCD89;gradientColor=default;" parent="1" vertex="1">
                     <mxGeometry x="1130" y="180" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-53" value="Etc Etc" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-53" value="Etc Etc" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1200" y="320" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-56" style="edgeStyle=none;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-55" target="aGBMkoTSeiEsNiXqi9xS-50">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-56" style="edgeStyle=none;html=1;fontSize=12;fontColor=#000000;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-55" target="aGBMkoTSeiEsNiXqi9xS-50" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-58" style="edgeStyle=none;html=1;entryX=0.547;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-55" target="aGBMkoTSeiEsNiXqi9xS-57">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-58" style="edgeStyle=none;html=1;entryX=0.547;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontColor=#000000;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-55" target="aGBMkoTSeiEsNiXqi9xS-57" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-55" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 16px;&quot;&gt;The Brow Sculpting Set.&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-size: 16px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Type = Non Stock Kit&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBorderColor=none;strokeColor=none;fillColor=#99FFFF;gradientColor=default;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-55" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 16px;&quot;&gt;The Brow Sculpting Set.&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-size: 16px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Type = Non Stock Kit&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBorderColor=none;strokeColor=none;fillColor=#99FFFF;gradientColor=default;" parent="1" vertex="1">
                     <mxGeometry x="1150" y="-190" width="200" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-57" value="&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#000000&quot;&gt;Other Stocked Kits&lt;br&gt;Type = Stocked Kit&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#14466c;fontSize=16;fillColor=#7BCD89;gradientColor=default;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-57" value="&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#000000&quot;&gt;Other Stocked Kits&lt;br&gt;Type = Stocked Kit&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#14466c;fontSize=16;fillColor=#7BCD89;gradientColor=default;" parent="1" vertex="1">
                     <mxGeometry x="1440" y="90" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-66" style="edgeStyle=none;html=1;entryX=0.205;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-65" target="aGBMkoTSeiEsNiXqi9xS-55">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-66" style="edgeStyle=none;html=1;entryX=0.205;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontColor=#000000;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-65" target="aGBMkoTSeiEsNiXqi9xS-55" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-67" style="edgeStyle=none;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-65" target="aGBMkoTSeiEsNiXqi9xS-50">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-67" style="edgeStyle=none;html=1;fontSize=12;fontColor=#000000;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-65" target="aGBMkoTSeiEsNiXqi9xS-50" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-71" style="edgeStyle=none;html=1;entryX=0.166;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-65" target="aGBMkoTSeiEsNiXqi9xS-68">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-71" style="edgeStyle=none;html=1;entryX=0.166;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontColor=#000000;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-65" target="aGBMkoTSeiEsNiXqi9xS-68" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-65" value="Any Transaction that affects the inventory of a non stock kit component will have to trigger the Web hook of both the item itself and the Non stock kits that its a member of&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBorderColor=none;strokeColor=#4D4D4D;fontSize=13;fontColor=#000000;fillColor=#FFFFCC;size=18;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-65" value="Any Transaction that affects the inventory of a non stock kit component will have to trigger the Web hook of both the item itself and the Non stock kits that its a member of&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBorderColor=none;strokeColor=#4D4D4D;fontSize=13;fontColor=#000000;fillColor=#FFFFCC;size=18;" parent="1" vertex="1">
                     <mxGeometry x="920" y="-50" width="220" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-69" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-68" target="aGBMkoTSeiEsNiXqi9xS-50">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-69" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-68" target="aGBMkoTSeiEsNiXqi9xS-50" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-70" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-68" target="aGBMkoTSeiEsNiXqi9xS-57">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-70" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-68" target="aGBMkoTSeiEsNiXqi9xS-57" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-68" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 16px;&quot;&gt;Alias Brow Gel Collection 3&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-size: 16px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Type = Non Stock Kit&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBorderColor=none;strokeColor=none;fillColor=#99FFFF;gradientColor=default;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-68" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 16px;&quot;&gt;Alias Brow Gel Collection 3&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-size: 16px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Type = Non Stock Kit&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBorderColor=none;strokeColor=none;fillColor=#99FFFF;gradientColor=default;" parent="1" vertex="1">
                     <mxGeometry x="1380" y="-190" width="200" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-77" style="edgeStyle=none;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-72" target="aGBMkoTSeiEsNiXqi9xS-73">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-77" style="edgeStyle=none;html=1;fontSize=12;fontColor=#000000;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-72" target="aGBMkoTSeiEsNiXqi9xS-73" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-80" style="edgeStyle=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-72" target="aGBMkoTSeiEsNiXqi9xS-76">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-80" style="edgeStyle=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-72" target="aGBMkoTSeiEsNiXqi9xS-76" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-72" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Non Stock Kit&lt;br&gt;&amp;nbsp;A&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBorderColor=none;strokeColor=none;fillColor=#99FFFF;gradientColor=default;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-72" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Non Stock Kit&lt;br&gt;&amp;nbsp;A&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBorderColor=none;strokeColor=none;fillColor=#99FFFF;gradientColor=default;" parent="1" vertex="1">
                     <mxGeometry x="-770" y="-500" width="200" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-78" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-73" target="aGBMkoTSeiEsNiXqi9xS-74">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-78" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-73" target="aGBMkoTSeiEsNiXqi9xS-74" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-79" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-73" target="aGBMkoTSeiEsNiXqi9xS-75">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-79" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-73" target="aGBMkoTSeiEsNiXqi9xS-75" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-73" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Non Stock Kit&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;B&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBorderColor=none;strokeColor=none;fillColor=#99FFFF;gradientColor=default;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-73" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Non Stock Kit&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;B&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBorderColor=none;strokeColor=none;fillColor=#99FFFF;gradientColor=default;" parent="1" vertex="1">
                     <mxGeometry x="-770" y="-310" width="200" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-83" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-74" target="aGBMkoTSeiEsNiXqi9xS-81">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-83" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-74" target="aGBMkoTSeiEsNiXqi9xS-81" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-84" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="aGBMkoTSeiEsNiXqi9xS-74" target="aGBMkoTSeiEsNiXqi9xS-82">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-84" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" parent="1" source="aGBMkoTSeiEsNiXqi9xS-74" target="aGBMkoTSeiEsNiXqi9xS-82" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-74" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Stock Kit &lt;br&gt;1&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=#23445d;fontSize=13;fillColor=#7BCD89;gradientColor=default;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-74" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Stock Kit &lt;br&gt;1&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;strokeColor=#23445d;fontSize=13;fillColor=#7BCD89;gradientColor=default;" parent="1" vertex="1">
                     <mxGeometry x="-790" y="-130" width="130" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-75" value="Inventory Item &lt;br&gt;X" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-75" value="Inventory Item &lt;br&gt;X" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="-610" y="-120" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-76" value="Inventory Item &lt;br&gt;W" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-76" value="Inventory Item &lt;br&gt;W" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="-520" y="-370" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-81" value="Inventory Item &lt;br&gt;Z" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-81" value="Inventory Item &lt;br&gt;Z" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="-840" y="10" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-82" value="Inventory Item &lt;br&gt;Y" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-82" value="Inventory Item &lt;br&gt;Y" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;rounded=1;labelBorderColor=none;" parent="1" vertex="1">
                     <mxGeometry x="-700" y="10" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="aGBMkoTSeiEsNiXqi9xS-85" value="Web hooks may also need to be triggered at multiple levels.&lt;br&gt;&lt;br&gt;For example if Inventory Item X or Stock Kit 1 were Sold their inventory Change would have to trigger as well as Non Stock Kit A &amp;amp; B&lt;br&gt;&lt;br&gt;However if a component of a Stocked Kit happened in isolation then it wouldn't need to trigger any additional webhooks.&lt;br&gt;for example Inventory Item Z. Can be sold without affecting stock levels for any of its parents as Inventory of Stock Kit 1 is tracked." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBorderColor=none;strokeColor=#4D4D4D;fontSize=13;fontColor=#000000;fillColor=#FFFFCC;size=20;" vertex="1" parent="1">
+                <mxCell id="aGBMkoTSeiEsNiXqi9xS-85" value="Web hooks may also need to be triggered at multiple levels.&lt;br&gt;&lt;br&gt;For example if Inventory Item X or Stock Kit 1 were Sold their inventory Change would have to trigger as well as Non Stock Kit A &amp;amp; B&lt;br&gt;&lt;br&gt;However if a component of a Stocked Kit happened in isolation then it wouldn't need to trigger any additional webhooks.&lt;br&gt;for example Inventory Item Z. Can be sold without affecting stock levels for any of its parents as Inventory of Stock Kit 1 is tracked." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBorderColor=none;strokeColor=#4D4D4D;fontSize=13;fontColor=#000000;fillColor=#FFFFCC;size=20;" parent="1" vertex="1">
                     <mxGeometry x="-1100" y="-460" width="230" height="290" as="geometry"/>
                 </mxCell>
             </root>
