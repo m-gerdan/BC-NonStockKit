@@ -614,6 +614,9 @@
                 <mxCell id="gnCXb3lGuDX15fsjvx5C-38" value="Schedule ASYNC" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#000000;strokeWidth=1;fontSize=16;fontColor=#000000;fillColor=#FFFFCC;" vertex="1" parent="1">
                     <mxGeometry x="500" y="130" width="80" height="100" as="geometry"/>
                 </mxCell>
+                <mxCell id="gnCXb3lGuDX15fsjvx5C-40" value="Text" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="-150" width="60" height="30" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
