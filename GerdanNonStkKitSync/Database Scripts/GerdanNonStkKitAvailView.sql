@@ -4,7 +4,7 @@ INKitSpecStkDet.KitInventoryID,
 KitItem.InventoryCD, 
 INSiteStatus.siteID,
 MAX(KitItem.StkItem) AS KitStkItem,
-FLOOR(Min(CASE WHEN INKitSpecStkDet.DfltCompQty > 0 THEN INSiteStatus.QtyAvail / INKitSpecStkDet.DfltCompQty ELSE 0 END)) AS MaxKitQtyAvail
+FLOOR(Min(CASE WHEN INKitSpecStkDet.DfltCompQty > 0 THEN INSiteStatus.QtyAvail / INKitSpecStkDet.DfltCompQty ELSE 0 END))-UnshippedNonStkKits.SumUnshippedQty AS MaxKitQtyAvail
 FROM 
 INKitSpecStkDet
 LEFT JOIN INSiteStatus
@@ -22,6 +22,11 @@ LEFT JOIN InventoryItem AS CompItem
     INKitSpecStkDet.CompInventoryID = CompItem.InventoryID
     AND 
     INKitSpecStkDet.CompanyID = CompItem.CompanyID
+LEFT JOIN UnshippedNonStkKits AS UnshippedNonStkKits
+    ON 
+    INKitSpecStkDet.KitInventoryID = UnshippedNonStkKits.InventoryID
+    AND
+    INKitSpecStkDet.CompanyID = UnshippedNonStkKits.CompanyID
 WHERE 
 KitItem.StkItem = 0
 AND
@@ -30,24 +35,4 @@ GROUP BY
 INKitSpecStkDet.KitInventoryID,
 INSiteStatus.siteID
 GO
-
--- TODO add parent filters so we are only concerning ourselvces with NON STK
-
-
-
-
--- This is the Netty Table I need to recreate
--- SELECT  
--- itemMember.parentItem AS 'Kit ID', 
--- -- LISTAGG( itemMember.item, ', ') AS 'Compnent IDs', 
--- aggregateItemLocation.location,
--- FLOOR(MIN(aggregateItemLocation.quantityAvailable / itemMember.quantity)) AS 'Max Kit QTY'
--- FROM itemMember
--- JOIN aggregateItemLocation
--- 	ON itemMember.item = aggregateItemLocation.item
--- -- WHERE 
--- -- aggregateItemLocation.location = 1
--- GROUP BY 
--- itemMember.parentItem,
--- aggregateItemLocation.location
--- ;
+;
