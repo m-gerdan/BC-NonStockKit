@@ -3,9 +3,9 @@ CREATE OR REPLACE VIEW UnshippedNonStkKits AS
 SELECT
 SOLine.InventoryID AS InventoryID,
 SOLine.CompanyID AS CompanyID,
-SUM(SOLine.OrderQty-SOLine.shippedQty) AS SumUnshippedQty,
-SUM(SOLine.OrderQty) AS SumOrderQty,
-SUM(SOLine.shippedQty) AS SumShippedQty
+IFNULL(SUM(SOLine.OrderQty-SOLine.shippedQty),0) AS SumUnshippedQty,
+IFNULL(SUM(SOLine.OrderQty),0)  AS SumOrderQty,
+IFNULL(SUM(SOLine.shippedQty),0)  AS SumShippedQty
 FROM
 SOLine
 -- LEFT JOIN transaction

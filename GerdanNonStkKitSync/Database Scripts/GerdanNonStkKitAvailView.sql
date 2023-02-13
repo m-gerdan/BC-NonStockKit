@@ -3,13 +3,14 @@ SELECT
 INKitSpecStkDet.KitInventoryID, 
 KitItem.InventoryCD, 
 INSiteStatus.siteID,
+UnshippedNonStkKits.SumUnshippedQty AS KitUnshippedQty,
 MAX(KitItem.StkItem) AS KitStkItem,
-FLOOR(Min(CASE WHEN INKitSpecStkDet.DfltCompQty > 0 THEN INSiteStatus.QtyAvail / INKitSpecStkDet.DfltCompQty ELSE 0 END))-UnshippedNonStkKits.SumUnshippedQty AS MaxKitQtyAvail
+FLOOR(Min(CASE WHEN INKitSpecStkDet.DfltCompQty > 0 THEN IFNULL(INSiteStatus.QtyAvail,0) / INKitSpecStkDet.DfltCompQty ELSE 0 END))- IFNULL(UnshippedNonStkKits.SumUnshippedQty , 0) AS MaxKitQtyAvail
 FROM 
 INKitSpecStkDet
 LEFT JOIN INSiteStatus
 	ON 
-    INKitSpecStkDet.CompInventoryID = INSiteStatus.InventoryID
+    INKitSpecStkDet.CompInventoryID = INSiteStatus.InventoryID 
     AND 
     INKitSpecStkDet.CompanyID = INSiteStatus.CompanyID
 LEFT JOIN InventoryItem AS KitItem
