@@ -21,11 +21,25 @@ namespace GerdanNonStkKitSync
         public abstract class inventoryCD : PX.Data.BQL.BqlString.Field<inventoryCD> { }
         #endregion
 
+        #region ItemDisplayName
+        [PXDBString(90, IsUnicode = true, InputMask = "")]
+        [PXUIField(DisplayName = "Inventory Description")]
+        public virtual string ItemDisplayName { get; set; }
+        public abstract class itemDisplayName : PX.Data.BQL.BqlString.Field<itemDisplayName> { }
+        #endregion
+
         #region SiteID
         [PXDBInt()]
         [PXUIField(DisplayName = "Site ID")]
         public virtual int? SiteID { get; set; }
         public abstract class siteID : PX.Data.BQL.BqlInt.Field<siteID> { }
+        #endregion
+
+        #region SiteDisplayName
+        [PXDBString(90, IsUnicode = true, InputMask = "")]
+        [PXUIField(DisplayName = "Site Description")]
+        public virtual string SiteDisplayName { get; set; }
+        public abstract class siteDisplayName : PX.Data.BQL.BqlString.Field<siteDisplayName> { }
         #endregion
 
         // #region KitStkItem
