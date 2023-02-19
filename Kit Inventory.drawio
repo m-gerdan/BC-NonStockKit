@@ -171,7 +171,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="l-lvAeruPmxF9iLmNtkb" name="PROFESSIONAL TINT KIT BOM">
-        <mxGraphModel dx="666" dy="1423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
+        <mxGraphModel dx="2626" dy="2216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -387,32 +387,44 @@
                 <mxCell id="OsrczBIvLuB8sDZj5NdH-78" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF3333;strokeWidth=5;opacity=50;" parent="1" vertex="1">
                     <mxGeometry x="3660" y="220" width="1130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="OsrczBIvLuB8sDZj5NdH-100" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OsrczBIvLuB8sDZj5NdH-87" target="OsrczBIvLuB8sDZj5NdH-68" edge="1">
+                <mxCell id="OsrczBIvLuB8sDZj5NdH-100" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="58Dxlz4oN7lJEoggI8p2-20" target="OsrczBIvLuB8sDZj5NdH-68" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="OsrczBIvLuB8sDZj5NdH-101" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OsrczBIvLuB8sDZj5NdH-87" target="OsrczBIvLuB8sDZj5NdH-92" edge="1">
+                <mxCell id="OsrczBIvLuB8sDZj5NdH-101" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.248;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="58Dxlz4oN7lJEoggI8p2-20" target="OsrczBIvLuB8sDZj5NdH-92" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="58Dxlz4oN7lJEoggI8p2-22" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="OsrczBIvLuB8sDZj5NdH-87" target="58Dxlz4oN7lJEoggI8p2-20">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="OsrczBIvLuB8sDZj5NdH-87" value="InventoryID: BCPROKITII&lt;br&gt;Description: PROFESSIONAL TINIT KIT + WAX" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFCCFF;" parent="1" vertex="1">
                     <mxGeometry x="2910" y="-240" width="530" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="OsrczBIvLuB8sDZj5NdH-97" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OsrczBIvLuB8sDZj5NdH-89" target="OsrczBIvLuB8sDZj5NdH-93" edge="1">
+                <mxCell id="OsrczBIvLuB8sDZj5NdH-97" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.236;exitY=0.895;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="58Dxlz4oN7lJEoggI8p2-23" target="OsrczBIvLuB8sDZj5NdH-93" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="OsrczBIvLuB8sDZj5NdH-98" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OsrczBIvLuB8sDZj5NdH-89" target="OsrczBIvLuB8sDZj5NdH-92" edge="1">
+                <mxCell id="OsrczBIvLuB8sDZj5NdH-98" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="58Dxlz4oN7lJEoggI8p2-23" target="OsrczBIvLuB8sDZj5NdH-92" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="OsrczBIvLuB8sDZj5NdH-99" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OsrczBIvLuB8sDZj5NdH-89" target="OsrczBIvLuB8sDZj5NdH-68" edge="1">
+                <mxCell id="OsrczBIvLuB8sDZj5NdH-99" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="58Dxlz4oN7lJEoggI8p2-23" target="OsrczBIvLuB8sDZj5NdH-68" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="58Dxlz4oN7lJEoggI8p2-24" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="OsrczBIvLuB8sDZj5NdH-89" target="58Dxlz4oN7lJEoggI8p2-23">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="OsrczBIvLuB8sDZj5NdH-89" value="InventoryID: BCPROKITIIWW&amp;nbsp;&lt;br&gt;Description: PRO TINT KIT + WAX + US WARMER" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFCCFF;" parent="1" vertex="1">
-                    <mxGeometry x="1970" y="-230" width="530" height="60" as="geometry"/>
+                    <mxGeometry x="2080" y="-230" width="530" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="OsrczBIvLuB8sDZj5NdH-92" value="InventoryID :&amp;nbsp;&amp;nbsp;BCWAXGOLD&lt;br&gt;Description : GOLD WAX 1KG" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
                     <mxGeometry x="2430" y="-15" width="320" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="OsrczBIvLuB8sDZj5NdH-93" value="InventoryID :&amp;nbsp;&amp;nbsp;BCWAXPOTUS&lt;br&gt;Description : WAX WARMER (US PLUG)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="1" vertex="1">
                     <mxGeometry x="1950" y="-15" width="320" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="58Dxlz4oN7lJEoggI8p2-20" value="A" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="1">
+                    <mxGeometry x="3120" y="-140" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="58Dxlz4oN7lJEoggI8p2-23" value="A" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF3333;" vertex="1" parent="1">
+                    <mxGeometry x="2290" y="-120" width="120" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
