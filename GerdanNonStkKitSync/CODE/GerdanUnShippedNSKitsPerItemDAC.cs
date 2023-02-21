@@ -28,6 +28,13 @@ namespace GerdanNonStkKitSync
     public abstract class siteid : PX.Data.BQL.BqlInt.Field<siteid> { }
     #endregion
 
+    #region NativeQtyAvail
+    [PXDBDecimal()]
+    [PXUIField(DisplayName = "Native Quantity Available")]
+    public virtual Decimal? NativeQtyAvail { get; set; }
+    public abstract class nativeQtyAvail : PX.Data.BQL.BqlDecimal.Field<nativeQtyAvail> { }
+    #endregion
+
     #region SumUnshippedQty
     [PXDBDecimal()]
     [PXUIField(DisplayName = "Sum Unshipped Qty")]
@@ -40,6 +47,13 @@ namespace GerdanNonStkKitSync
     [PXUIField(DisplayName = "Reduction Quantity")]
     public virtual Decimal? ReductionQuantity { get; set; }
     public abstract class reductionQuantity : PX.Data.BQL.BqlDecimal.Field<reductionQuantity> { }
+    #endregion
+
+    #region NewQtyAvail
+    [PXDBDecimal()]
+    [PXUIField(DisplayName = "New Quantity Available")]
+    public virtual Decimal? NewQtyAvail { get; set; }
+    public abstract class newQtyAvail : PX.Data.BQL.BqlDecimal.Field<newQtyAvail> { }
     #endregion
   }
 }

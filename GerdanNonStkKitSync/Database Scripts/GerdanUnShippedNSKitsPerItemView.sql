@@ -4,8 +4,10 @@ SELECT
     INKitSpecStkDet.CompInventoryID AS InventoryID,
     CompItem.InventoryCD AS InventoryCD,
     INSiteStatus.SiteID AS SiteID,
+    INSiteStatus.QtyAvail AS NativeQtyAvail,
     SUM(UnshippedNonStkKits.SumUnshippedQty) AS SumUnshippedQty,
-    SUM(UnshippedNonStkKits.SumUnshippedQty*INKitSpecStkDet.DfltCompQty) AS ReductionQuantity
+    SUM(UnshippedNonStkKits.SumUnshippedQty*INKitSpecStkDet.DfltCompQty) AS ReductionQuantity,
+    INSiteStatus.QtyAvail-SUM(UnshippedNonStkKits.SumUnshippedQty*INKitSpecStkDet.DfltCompQty) AS NewQtyAvail
 FROM
     INKitSpecStkDet
 LEFT JOIN INSiteStatus
