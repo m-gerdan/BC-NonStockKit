@@ -8,17 +8,17 @@ INSite.Descr AS SiteDisplayName,
 INKitSpecStkDet.CompanyID,
 UnshippedNonStkKits.SumUnshippedQty AS KitUnshippedQty,
 MAX(KitItem.StkItem) AS KitStkItem,
-FLOOR(MIN(CASE WHEN INKitSpecStkDet.DfltCompQty > 0 THEN IFNULL(INSiteStatus.QtyAvail,0.1) / INKitSpecStkDet.DfltCompQty ELSE 0.1 END)) - IFNULL(UnshippedNonStkKits.SumUnshippedQty , 0)AS MaxKitQtyAvail
+FLOOR(MIN(CASE WHEN INKitSpecStkDet.DfltCompQty > 0 THEN IFNULL(IFNULL(GerdanUnShippedNSKitsPerItemDAC.NewQtyAvail, GerdanUnShippedNSKitsPerItemDAC.NativeQtyAvail),0.1) / INKitSpecStkDet.DfltCompQty ELSE 0.1 END)) AS MaxKitQtyAvail
 FROM 
 INKitSpecStkDet
 CROSS JOIN INSite AS INSite
-LEFT JOIN INSiteStatus
+LEFT JOIN GerdanUnShippedNSKitsPerItemDAC AS GerdanUnShippedNSKitsPerItemDAC
 	ON 
-    INKitSpecStkDet.CompInventoryID = INSiteStatus.InventoryID 
+    INKitSpecStkDet.CompInventoryID = GerdanUnShippedNSKitsPerItemDAC.InventoryID 
     AND
-    INSite.SiteID = INSiteStatus.SiteID
+    INSite.SiteID = GerdanUnShippedNSKitsPerItemDAC.SiteID
     AND 
-    INKitSpecStkDet.CompanyID = INSiteStatus.CompanyID
+    INKitSpecStkDet.CompanyID = GerdanUnShippedNSKitsPerItemDAC.CompanyID
 LEFT JOIN InventoryItem AS KitItem
 	ON 
     INKitSpecStkDet.KitInventoryID = KitItem.InventoryID
@@ -33,7 +33,7 @@ LEFT JOIN UnshippedNonStkKits AS UnshippedNonStkKits
     ON 
     INKitSpecStkDet.KitInventoryID = UnshippedNonStkKits.InventoryID
     AND
-    INSiteStatus.SiteID = UnshippedNonStkKits.SiteID
+    GerdanUnShippedNSKitsPerItemDAC.SiteID = UnshippedNonStkKits.SiteID
     AND
     INKitSpecStkDet.CompanyID = UnshippedNonStkKits.CompanyID
 WHERE 
