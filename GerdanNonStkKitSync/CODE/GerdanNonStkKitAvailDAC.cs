@@ -12,10 +12,10 @@ namespace GerdanNonStkKitSync
     [PXCacheName("GerdanNonStkKitAvailDAC")]
     public class GerdanNonStkKitAvailDAC : IBqlTable
     {
-
+        //TODO revist this after you have passed the dev cert 
         // #region KitInventoryID
         // public abstract class kitInventoryID : PX.Data.BQL.BqlInt.Field<kitInventoryID> {}
-        // [Inventory (IsKey=true, DisplayName = "Kit Inventory ID")]
+        // ?[Inventory (IsKey=true, DisplayName = "Kit Inventory ID")]
         // // [PXDefault]
         // public virtual int? KitInventoryID {get; set;}
         // #endregion
