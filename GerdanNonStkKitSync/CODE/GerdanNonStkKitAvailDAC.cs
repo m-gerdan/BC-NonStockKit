@@ -1,4 +1,9 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 using PX.Data;
 
 namespace GerdanNonStkKitSync
@@ -9,10 +14,10 @@ namespace GerdanNonStkKitSync
     {
 
         // #region KitInventoryID
-        // [Inventory]
-        // [PXDefault]
+        // public abstract class kitInventoryID : PX.Data.BQL.BqlInt.Field<kitInventoryID> {}
+        // [Inventory (IsKey=true, DisplayName = "Kit Inventory ID")]
+        // // [PXDefault]
         // public virtual int? KitInventoryID {get; set;}
-        // public abstract class kitInventoryID :PX.Data.BQL.BqlInt.Field<kitInventoryID> {}
         // #endregion
 
         #region KitInventoryID
