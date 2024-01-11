@@ -1,24 +1,20 @@
-CREATE OR REPLACE VIEW GerdanNonStkKitAvailDAC AS
+CREATE OR REPLACE VIEW BCNSKNonStkKitAvailView AS
 SELECT 
-INKitSpecStkDet.KitInventoryID, 
-KitItem.InventoryCD, 
-KitItem.Descr AS ItemDisplayName,
+INKitSpecStkDet.KitInventoryID,
 INSite.SiteID,
-INSite.Descr AS SiteDisplayName,
 INKitSpecStkDet.CompanyID,
 UnshippedNonStkKits.SumUnshippedQty AS KitUnshippedQty,
-MAX(KitItem.StkItem) AS KitStkItem,
-FLOOR(MIN(CASE WHEN INKitSpecStkDet.DfltCompQty > 0 THEN IFNULL(IFNULL(GerdanUnShippedNSKitsPerItemDAC.NewQtyAvail, GerdanUnShippedNSKitsPerItemDAC.NativeQtyAvail),0.1) / INKitSpecStkDet.DfltCompQty ELSE 0.1 END)) AS MaxKitQtyAvail
+FLOOR(MIN(CASE WHEN INKitSpecStkDet.DfltCompQty > 0 THEN IFNULL(IFNULL(UnShippedNonStockKitsPerItem.NewQtyAvail, UnShippedNonStockKitsPerItem.NativeQtyAvail),0.1) / INKitSpecStkDet.DfltCompQty ELSE 0.1 END)) AS MaxKitQtyAvail
 FROM 
 INKitSpecStkDet
 CROSS JOIN INSite AS INSite
-LEFT JOIN GerdanUnShippedNSKitsPerItemDAC AS GerdanUnShippedNSKitsPerItemDAC
+LEFT JOIN BCNSKUnShippedNonStockKitsPerItemView AS UnShippedNonStockKitsPerItem
 	ON 
-    INKitSpecStkDet.CompInventoryID = GerdanUnShippedNSKitsPerItemDAC.InventoryID 
+    INKitSpecStkDet.CompInventoryID = UnShippedNonStockKitsPerItem.InventoryID 
     AND
-    INSite.SiteID = GerdanUnShippedNSKitsPerItemDAC.SiteID
+    INSite.SiteID = UnShippedNonStockKitsPerItem.SiteID
     AND 
-    INKitSpecStkDet.CompanyID = GerdanUnShippedNSKitsPerItemDAC.CompanyID
+    INKitSpecStkDet.CompanyID = UnShippedNonStockKitsPerItem.CompanyID
 LEFT JOIN InventoryItem AS KitItem
 	ON 
     INKitSpecStkDet.KitInventoryID = KitItem.InventoryID
@@ -33,7 +29,7 @@ LEFT JOIN UnshippedNonStkKits AS UnshippedNonStkKits
     ON 
     INKitSpecStkDet.KitInventoryID = UnshippedNonStkKits.InventoryID
     AND
-    GerdanUnShippedNSKitsPerItemDAC.SiteID = UnshippedNonStkKits.SiteID
+    UnShippedNonStockKitsPerItem.SiteID = UnshippedNonStkKits.SiteID
     AND
     INKitSpecStkDet.CompanyID = UnshippedNonStkKits.CompanyID
 WHERE 
@@ -46,6 +42,7 @@ AND
 INSite.Active = 1
 GROUP BY 
 INKitSpecStkDet.KitInventoryID,
-INSite.siteID
-GO
+INSite.siteID,
+INKitSpecStkDet.CompanyID,
+UnshippedNonStkKits.SumUnshippedQty
 ;

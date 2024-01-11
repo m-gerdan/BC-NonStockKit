@@ -1,8 +1,7 @@
-CREATE OR REPLACE VIEW GerdanUnShippedNSKitsPerItemDAC AS
+CREATE OR REPLACE VIEW BCNSKUnShippedNonStockKitsPerItemView AS
 SELECT 
     INKitSpecStkDet.CompanyID AS CompanyID,
     INKitSpecStkDet.CompInventoryID AS InventoryID,
-    CompItem.InventoryCD AS InventoryCD,
     INSiteStatus.SiteID AS SiteID,
     INSiteStatus.QtyAvail AS NativeQtyAvail,
     SUM(UnshippedNonStkKits.SumUnshippedQty) AS SumUnshippedQty,
@@ -40,6 +39,7 @@ AND
 CompItem.StkItem = 1
 GROUP BY
     INKitSpecStkDet.CompInventoryID,
-    INSiteStatus.SiteID
-GO
+    INSiteStatus.SiteID,
+    INKitSpecStkDet.CompanyID,
+    INSiteStatus.QtyAvail
 ;

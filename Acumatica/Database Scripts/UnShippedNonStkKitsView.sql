@@ -9,9 +9,6 @@ IFNULL(SUM(SOLine.OrderQty),0)  AS SumOrderQty,
 IFNULL(SUM(SOLine.shippedQty),0)  AS SumShippedQty
 FROM
 SOLine
--- LEFT JOIN transaction
---     ON
---     SOLine.transaction = transaction.id
 LEFT JOIN InventoryItem
     ON
     SOLine.InventoryID = InventoryItem.InventoryID
@@ -23,5 +20,5 @@ AND
 SOLine.OrderType = 'SO'
 AND
 SOLine.Completed =0
-GROUP BY SOLine.InventoryID
+GROUP BY SOLine.InventoryID, SOLine.CompanyID, SOLine. SiteID
 ;
