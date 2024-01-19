@@ -1,4 +1,4 @@
-CREATE OR REPLACE VIEW BCNSKNonStkKitAvailView AS
+CREATE OR REPLACE VIEW BCNSKNonStockKitAvail AS
 SELECT 
 INKitSpecStkDet.KitInventoryID,
 INSite.SiteID,

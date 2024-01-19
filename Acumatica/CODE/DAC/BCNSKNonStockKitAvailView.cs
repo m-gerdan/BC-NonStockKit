@@ -10,7 +10,7 @@ using PX.Objects.IN;
 namespace BCNSKNonStockKit
     {
     [PXCacheName(Messages.BCNSKNonStockKitAvailView)]
-    public class BCNSKNonSTockKitAvailView : IBqlTable
+    public class BCNSKNonStockKitAvail : IBqlTable
     {
         #region KitInventoryID
         [Inventory(IsKey =true, DisplayName = "Kit Inventory ID")]
